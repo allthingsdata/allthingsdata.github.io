@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title>All Things Data : Scalable data solutions for Enterprise and IoT</title> 
+    <title>All Things Data : Scalable data solutions for Enterprise and IoT</title>
     <link rel="stylesheet" href="/assets/lib/bootstrap/css/bootstrap.min.css"></link>
     <link rel="stylesheet" media="screen" href="/assets/stylesheets/main.css"></link>
 </head>
@@ -10,12 +10,12 @@
 <body>
     <div class="container">
 
-<h2>LoRaWAN IoT Meetup of 14 March 2016 of the Eindhoven IoT Meetup</h2>
+<h1>LoRaWAN IoT Meetup of 14 March 2016 of the Eindhoven IoT Meetup</h1>
 
-<h3>Hackaton Arduino, Rasberry Pie, LoRaWAN boards</h3>
+<h2>Hackaton Arduino, Rasberry Pie, LoRaWAN boards</h2>
 <p>From 17:00 to 19:00 people where having fun with boards and LoRaWAN set-ups.</p>
 
-<h3>Introduction by Lorna Goulden</h3>
+<h2>Introduction by Lorna Goulden</h2>
 
 <p>Lorna explained a number of introductory aspects of LoRaWAN:</p>
 
@@ -49,7 +49,7 @@
 
 <p>Introducing the next speakers, again raised the question: "All fine, but ... what can you do with it ??"</p>
 
-<h3>Speaker 1: Dennis Tilgencamp (Storm Company) Starting up a biz in IoT</h3>
+<h2>Speaker 1: Dennis Tilgencamp (Storm Company) Starting up a biz in IoT</h2>
 
 <p>Dennis introduced Storm company with this slide:</p>
 <p><img src="/assets/images/storm-company-0001.png" alt="Storm Company"></img>
@@ -109,7 +109,7 @@ plans from kpn and Loriot.io (I failed to take note of the exact numbers).</p>
   <li>service offerings in parallel</li>
 </ul>
 
-<h3>Speakers 2: Jeroen Blok and Marco Rudolph</h3>
+<h2>Speaker 2: Jeroen Blok and Marco Rudolph</h2>
 
 <p>Jeroen and Marco showed a lot of hardware that they had built, bought and looked
 at. This is an overview of the different LoRa Gateways:</p>
@@ -138,7 +138,42 @@ Pi + LoRa module for radio, see picture below:</p>
 
 <p>Gateways that are set-up can send to The Things Network, but they can _also_ send to other
 network, e.g. the SemTech network, see image below:</p>
-<p><img src="assets/images/eindhoven-semtech-lorawan-coverage-0001.png" alt="eindhoven semtech lorawan coverage"></img></p>
+<p><img src="/assets/images/eindhoven-semtech-lorawan-coverage-0001.png" alt="eindhoven semtech lorawan coverage"></img></p>
+
+<p>Jeroen showed the original network architecture of the TTN and showed some sample messages</p>
+<p><img src="/assets/images/initial-network-architecture-TTN-0001.png" alt="initial network architecture TTN"></img></p>
+
+<h2>Speaker 3: Rene Schouwman from Inteliments</h2>
+
+<p>Rene showed this overview of the ecosystem in which he is working:</p>
+<p><img src="/assets/images/inteliments-ecosystem-0001.png" alt="initeliments ecosystem"></img></p>
+
+<p>An example of an application he is selling is SOLARTHERM which measures the savings
+in gas that are realised with sun heating of the boiler</p>
+
+<p><img src="/assets/images/intelliments-solartherm-0001.png" alt="initeliments solartherm"></img></p>
+
+<p>Another small demo application is indoor air quality (CO2, temp, humidity) and use that
+to drive the air conditioning (it was a very crude solution because the sensors where
+not very accurate in this version):</p>
+
+<p><img src="/assets/images/indoor-air-quality-0001.png" alt="indoor air quality"></img></p>
+
+<p>Technologies used in the different solutions are:</p>
+<ul>
+  <li>MQTT</li>
+  <li>LoraWAN</li>
+  <li>SigFox (very useful for static objects (e.g. crop field, humity)</li>
+  <li>IQRF MESH Network  (for customers with very private data, not "in the cloud")</li>
+</ul>
+
+
+<p>Security is becoming very important now ... Next to this, Inteliments also offers
+an IoT platform (IntelliGlue), Integrated connectivity to analytics and consulting.</p>
+
+<p>An interesting note is that SigFOX stores the data in the cloud and you can ask it
+back via API. Also SigFOX has a "long" tranmission time. More applications discussed
+where Asset tracking (with GPS) of bulldozers, waste management of glass containers.</p>
 
 </div>
 </body>
